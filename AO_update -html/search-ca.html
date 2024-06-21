@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content />
+        <meta name="author" content />
+        <title>Welcome to Dominica</title>
+        <link href="css/style.css" rel="stylesheet" />
+
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css" rel="stylesheet" />
+
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+        <script data-search-pseudo-elements="" defer="" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="nav-fixed">
+        <nav class="navbar navbar-marketing navbar-expand-lg navbar-dark fixed-top d-flex flex-wrap">
+            <div _ngcontent-ycd-c64="" class="container-fluid">
+                <div class="header-content col px-md-3">
+                    <div class="d-flex align-items-center">
+                        <!-- Logo For Desktop View -->
+                        <a class="navbar-brand navbar-brand-desktop" href="/">
+                            <img src="images/logo.svg" alt="User" class="img-logo" />
+                        </a>
+                        <span class="app-brand-text demo menu-text fw-bolder ms-2"><p style="margin: 0px; font-size: 15px;">Government of the</p> <p style="margin: 0px;">Commonwealth of Dominica</p></span>
+						<div class="header-content col px-md-3"><span class="app-brand-text demo menu-text fw-bolder">Electronic Cabinet Management Information System</span>
+						<div style="font-size:12px">Cabinet Office</div></div>
+						
+                        
+                    </div>
+                </div>
+                <ul _ngcontent-ycd-c64="" class="navbar-nav align-items-center ml-auto rlogo d-flex flex-row-reverse">
+                    <li _ngcontent-ycd-c64="" class="nav-item dropdown no-caret mr-2 dropdown-user">
+                        <div _ngcontent-ycd-c64="" id="navbarContent" class="navbar_collapse">
+                            <ul _ngcontent-ycd-c64="" class="navbar-nav ml-auto">
+                                <!-- User Dropdown-->
+                                <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
+                                    <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img class="dropdown-user-img" src="images/user.svg" />
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up right" aria-labelledby="navbarDropdownUserImage">
+                                        <h6 class="dropdown-header d-flex align-items-center">
+                                            <img class="dropdown-user-img" src="images/user.svg" />
+                                            <div class="dropdown-user-details">
+                                                <div class="dropdown-user-details-name">Ashley Domin</div>
+                                                <div class="dropdown-user-details-email">Administrative Officer</div>
+                                            </div>
+                                        </h6>
+                                        <div class="dropdown-divider"></div>
+
+                                        <a class="dropdown-item" href="#!">
+                                            <div class="dropdown-item-icon">
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    stroke-width="2"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    class="feather feather-log-out"
+                                                >
+                                                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                                    <polyline points="16 17 21 12 16 7"></polyline>
+                                                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                                                </svg>
+                                            </div>
+                                            Logout
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-center ms-auto col-6">
+                        <!-- Documentation Dropdown-->
+
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link" href="stc-dashboard.html" role="button">
+                                <div class="fw-500">Home</div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">Cabinet Paper &amp; Notes</div>
+                                <svg
+                                    class="svg-inline--fa fa-chevron-right dropdown-arrow"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="chevron-right"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512"
+                                    data-fa-i2svg=""
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="search.html">
+
+                                    <div>
+                                        Search
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">
+                                    Cabinet Agenda
+                                </div>
+                                <svg
+                                    class="svg-inline--fa fa-chevron-right dropdown-arrow"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="chevron-right"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512"
+                                    data-fa-i2svg=""
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                                <a class="dropdown-item" href="create.html">
+
+                                    <div>
+                                        Create
+                                    </div>
+                                </a>
+
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="inbox-cabinet-agenda.html">
+
+                                    <div>
+                                        Inbox
+                                    </div>
+                                </a>
+
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="search-ca.html">
+
+                                    <div>
+                                        Search
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">
+                                    Cabinet Meeting
+                                </div>
+                                <svg
+                                    class="svg-inline--fa fa-chevron-right dropdown-arrow"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="chevron-right"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512"
+                                    data-fa-i2svg=""
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                                <a class="dropdown-item" href="create-cm.html">
+
+                                    <div>
+                                        Create
+                                    </div>
+                                </a>
+
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="inbox-cabinet-meeting.html">
+
+                                    <div>
+                                        Inbox
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                                       <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">
+                                    Cabinet Minutes
+                                </div>
+                                <svg
+                                    class="svg-inline--fa fa-chevron-right dropdown-arrow"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="chevron-right"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512"
+                                    data-fa-i2svg=""
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                                <a class="dropdown-item" href="create-cm-2.html">
+
+                                    <div>
+                                        Create
+                                    </div>
+                                </a>
+
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="inbox-cabinet-meeting2.html">
+
+                                    <div>
+                                        Inbox
+                                    </div>
+                                </a>
+
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="meeting-search.html">
+
+                                    <div>
+                                        Search
+                                    </div>
+                                </a>
+								
+								
+								
+								  <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="create-extract1.html">
+
+                                    <div>
+                                        Create Cabinet Decision
+                                    </div>
+                                </a>
+								
+								
+								  <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="download-extract.html">
+
+                                    <div>
+                                       Download Cabinet Decision
+                                    </div>
+                                </a>
+								
+										  <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="download-composite-conclusion.html">
+
+                                    <div>
+                                      Download Cabinet Minutes
+                                    </div>
+                                </a>
+								
+								
+								
+								
+								
+                            </div>
+                        </li>
+
+                   
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="layoutSidenav_content">
+            <main>
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card card-m-btm">
+                                    <div class="card-header">Search Cabinet Agenda</div>
+                                    <div class="body">
+                                       <form novalidate="" class="row form-horizontal ng-untouched ng-pristine ng-valid">
+									   <div class="col-md-4"><div class="form-line"><div class="form-label"><label for="fileName">Agenda Number</label></div><div class="form-input"><input type="text" formcontrolname="fileName" maxlength="50" class="form-control ng-untouched ng-pristine ng-valid"></div></div></div>
+									   
+									   
+									   <div class="col-md-4"><div class="form-line"><div class="form-label"><label for="fileSubject">Meeting Reference Number </label></div><div class="form-input"><input id="search_subject" type="text" formcontrolname="fileSubject" class="form-control no-select ng-untouched ng-pristine ng-valid"></div></div></div>
+									   
+									   <div class="col-md-4"><div class="form-line"><div class="form-label"><label for="ministryFileReferenceNumber">Cabinet Paper Number</label></div><div class="form-input"><input type="text" formcontrolname="ministryFileReferenceNumber" class="form-control ng-untouched ng-pristine ng-valid"></div></div></div>
+									   
+									   <div class="col-md-4"><div class="form-line"><div class="form-label"><label for="status">Meeting Caption </label></div><div class="form-input"><mat-select role="combobox" aria-autocomplete="none" aria-haspopup="true" class="mat-select form-control ng-tns-c79-22 ng-star-inserted" aria-labelledby="mat-select-value-7" id="mat-select-6" tabindex="0" aria-expanded="false" aria-required="false" aria-disabled="false" aria-invalid="false"><div cdk-overlay-origin="" class="mat-select-trigger ng-tns-c79-22"><div class="mat-select-value ng-tns-c79-22" id="mat-select-value-7"><!----><span class="mat-select-value-text ng-tns-c79-22 ng-star-inserted"><span class="mat-select-min-line ng-tns-c79-22 ng-star-inserted">Select</span><!----><!----></span><!----></div><div class="mat-select-arrow-wrapper ng-tns-c79-22"><div class="mat-select-arrow ng-tns-c79-22"></div></div></div><!----></mat-select></div></div></div>
+									   
+									   <div class="col-md-4"><div class="form-line"><div class="form-label"><label for="startDate">Start Date (dd/mm/yyyy)</label></div><div class="form-input"><input class="mat-datepicker-input form-control ng-untouched ng-pristine ng-valid" aria-haspopup="dialog" data-mat-calendar="mat-datepicker-0"><mat-datepicker-toggle matsuffix="" class="mat-datepicker-toggle" data-mat-calendar="mat-datepicker-0"><button mat-icon-button="" type="button" class="mat-focus-indicator mat-icon-button mat-button-base" aria-haspopup="dialog" aria-label="Open calendar" tabindex="0"><span class="mat-button-wrapper"><svg viewBox="0 0 24 24" width="24px" height="24px" fill="currentColor" focusable="false" class="mat-datepicker-toggle-default-icon ng-star-inserted"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"></path></svg><!----></span><span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span></button></mat-datepicker-toggle><mat-datepicker touchui=""></mat-datepicker><!----></div></div></div>
+									   
+									   <div class="col-md-4"><div class="form-line"><div class="form-label"><label>Meeting Type</label></div><div class="form-input"><select name="cars" id="cars" style="width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border-top: none;
+    border-left: none;
+    border-right: none;">
+  
+  <option value="volvo">Regular</option>
+  <option value="volvo">Special</option>
+</select>
+									   </div></div></div>
+									   </form>
+
+									   <div>
+                                            <button mat-button="" class="mat-focus-indicator actionButton borderR mat-button mat-button-base">
+                                                <span class="mat-button-wrapper">Search</span><span matripple="" class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span>
+                                            </button>
+                                            &nbsp;
+                                        </div>
+                                    </div>
+
+                                    <div class="body ng-star-inserted">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="label">
+                                                    <label>Select Range</label> &nbsp;&nbsp;
+                                                    <mat-form-field
+                                                        class="mat-form-field ng-tns-c76-155 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-hide-placeholder ng-untouched ng-pristine ng-valid ng-star-inserted mat-form-field-should-float"
+                                                        style="width: 74px;"
+                                                    >
+                                                        <div class="mat-form-field-wrapper ng-tns-c76-155">
+                                                            <div class="mat-form-field-flex ng-tns-c76-155">
+                                                                <!----><!---->
+                                                                <div class="mat-form-field-infix ng-tns-c76-155">
+                                                                    <mat-select
+                                                                        role="combobox"
+                                                                        aria-autocomplete="none"
+                                                                        aria-haspopup="true"
+                                                                        name="index"
+                                                                        class="mat-select ng-tns-c79-156 ng-tns-c76-155 ng-untouched ng-pristine ng-valid ng-star-inserted"
+                                                                        aria-labelledby="mat-select-value-87"
+                                                                        id="mat-select-86"
+                                                                        tabindex="0"
+                                                                        aria-expanded="false"
+                                                                        aria-required="false"
+                                                                        aria-disabled="false"
+                                                                        aria-invalid="false"
+                                                                    >
+                                                                        <div cdk-overlay-origin="" class="mat-select-trigger ng-tns-c79-156">
+                                                                            <div class="mat-select-value ng-tns-c79-156" id="mat-select-value-87">
+                                                                                <!---->
+                                                                                <span class="mat-select-value-text ng-tns-c79-156 ng-star-inserted">
+                                                                                    <span class="mat-select-min-line ng-tns-c79-156 ng-star-inserted">10</span>
+                                                                                    <!----><!---->
+                                                                                </span>
+                                                                                <!---->
+                                                                            </div>
+                                                                            <div class="mat-select-arrow-wrapper ng-tns-c79-156"><div class="mat-select-arrow ng-tns-c79-156"></div></div>
+                                                                        </div>
+                                                                        <!---->
+                                                                    </mat-select>
+                                                                    <span class="mat-form-field-label-wrapper ng-tns-c76-155"><!----></span>
+                                                                </div>
+                                                                <!---->
+                                                            </div>
+                                                            <div class="mat-form-field-underline ng-tns-c76-155 ng-star-inserted"><span class="mat-form-field-ripple ng-tns-c76-155"></span></div>
+                                                            <!---->
+                                                            <div class="mat-form-field-subscript-wrapper ng-tns-c76-155">
+                                                                <!---->
+                                                                <div class="mat-form-field-hint-wrapper ng-tns-c76-155 ng-trigger ng-trigger-transitionMessages ng-star-inserted" style="opacity: 1; transform: translateY(0%);">
+                                                                    <!---->
+                                                                    <div class="mat-form-field-hint-spacer ng-tns-c76-155"></div>
+                                                                </div>
+                                                                <!---->
+                                                            </div>
+                                                        </div>
+                                                    </mat-form-field>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6"></div>
+                                        </div>
+                                        <div class="report">
+                                            <div class="">
+                                                <table matsort="" class="mat-sort table table-bordered table-hover dataTable">
+                                                    <thead>
+                                                        <tr class="stickyth">
+                                                            <th mat-sort-header="rnum" class="mat-sort-header ng-tns-c137-157 ng-star-inserted" aria-sort="none">
+                                                                <div role="button" class="mat-sort-header-container mat-focus-indicator ng-tns-c137-157" tabindex="0">
+                                                                    <div class="mat-sort-header-content ng-tns-c137-157">Agenda Number</div>
+                                                                    <div class="mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c137-157 ng-star-inserted" style="transform: translateY(25%); opacity: 0;">
+                                                                        <div class="mat-sort-header-stem ng-tns-c137-157"></div>
+                                                                        <div class="mat-sort-header-indicator ng-tns-c137-157 ng-trigger ng-trigger-indicator" style="transform: translateY(0px);">
+                                                                            <div class="mat-sort-header-pointer-left ng-tns-c137-157 ng-trigger ng-trigger-leftPointer" style="transform: rotate(-45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-right ng-tns-c137-157 ng-trigger ng-trigger-rightPointer" style="transform: rotate(45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-middle ng-tns-c137-157"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                </div>
+                                                            </th>
+                                                            <th mat-sort-header="fileSubject" class="mat-sort-header ng-tns-c137-159 ng-star-inserted" aria-sort="none">
+                                                                <div role="button" class="mat-sort-header-container mat-focus-indicator ng-tns-c137-159" tabindex="0">
+                                                                    <div class="mat-sort-header-content ng-tns-c137-159">Meeting Reference Number</div>
+                                                                    <div class="mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c137-159 ng-star-inserted" style="transform: translateY(25%); opacity: 0;">
+                                                                        <div class="mat-sort-header-stem ng-tns-c137-159"></div>
+                                                                        <div class="mat-sort-header-indicator ng-tns-c137-159 ng-trigger ng-trigger-indicator" style="transform: translateY(0px);">
+                                                                            <div class="mat-sort-header-pointer-left ng-tns-c137-159 ng-trigger ng-trigger-leftPointer" style="transform: rotate(-45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-right ng-tns-c137-159 ng-trigger ng-trigger-rightPointer" style="transform: rotate(45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-middle ng-tns-c137-159"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                </div>
+                                                            </th>
+                                                            <th mat-sort-header="createdBy" class="mat-sort-header ng-tns-c137-160 ng-star-inserted" aria-sort="none">
+                                                                <div role="button" class="mat-sort-header-container mat-focus-indicator ng-tns-c137-160" tabindex="0">
+                                                                    <div class="mat-sort-header-content ng-tns-c137-160">Meeting Caption</div>
+                                                                    <div class="mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c137-160 ng-star-inserted" style="transform: translateY(25%); opacity: 0;">
+                                                                        <div class="mat-sort-header-stem ng-tns-c137-160"></div>
+                                                                        <div class="mat-sort-header-indicator ng-tns-c137-160 ng-trigger ng-trigger-indicator" style="transform: translateY(0px);">
+                                                                            <div class="mat-sort-header-pointer-left ng-tns-c137-160 ng-trigger ng-trigger-leftPointer" style="transform: rotate(-45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-right ng-tns-c137-160 ng-trigger ng-trigger-rightPointer" style="transform: rotate(45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-middle ng-tns-c137-160"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                </div>
+                                                            </th>
+                                                            <th mat-sort-header="dateOfCreation" class="mat-sort-header ng-tns-c137-161 ng-star-inserted" aria-sort="none">
+                                                                <div role="button" class="mat-sort-header-container mat-focus-indicator ng-tns-c137-161" tabindex="0">
+                                                                    <div class="mat-sort-header-content ng-tns-c137-161">Agenda Creation Date</div>
+                                                                    <div class="mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c137-161 ng-star-inserted" style="transform: translateY(25%); opacity: 0;">
+                                                                        <div class="mat-sort-header-stem ng-tns-c137-161"></div>
+                                                                        <div class="mat-sort-header-indicator ng-tns-c137-161 ng-trigger ng-trigger-indicator" style="transform: translateY(0px);">
+                                                                            <div class="mat-sort-header-pointer-left ng-tns-c137-161 ng-trigger ng-trigger-leftPointer" style="transform: rotate(-45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-right ng-tns-c137-161 ng-trigger ng-trigger-rightPointer" style="transform: rotate(45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-middle ng-tns-c137-161"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                </div>
+                                                            </th>
+                                                            <th mat-sort-header="fileStatus" class="mat-sort-header ng-tns-c137-162 ng-star-inserted" aria-sort="none">
+                                                                <div role="button" class="mat-sort-header-container mat-focus-indicator ng-tns-c137-162" tabindex="0">
+                                                                    <div class="mat-sort-header-content ng-tns-c137-162">Meeting Date</div>
+                                                                    <div class="mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c137-162 ng-star-inserted" style="transform: translateY(25%); opacity: 0;">
+                                                                        <div class="mat-sort-header-stem ng-tns-c137-162"></div>
+                                                                        <div class="mat-sort-header-indicator ng-tns-c137-162 ng-trigger ng-trigger-indicator" style="transform: translateY(0px);">
+                                                                            <div class="mat-sort-header-pointer-left ng-tns-c137-162 ng-trigger ng-trigger-leftPointer" style="transform: rotate(-45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-right ng-tns-c137-162 ng-trigger ng-trigger-rightPointer" style="transform: rotate(45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-middle ng-tns-c137-162"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                </div>
+                                                            </th>
+                                                            <th mat-sort-header="fileTrack" class="mat-sort-header ng-tns-c137-163 ng-star-inserted" aria-sort="none">
+                                                                <div role="button" class="mat-sort-header-container mat-focus-indicator ng-tns-c137-163" tabindex="0">
+                                                                    <div class="mat-sort-header-content ng-tns-c137-163">Track</div>
+                                                                    <div class="mat-sort-header-arrow ng-trigger ng-trigger-arrowPosition ng-tns-c137-163 ng-star-inserted" style="transform: translateY(25%); opacity: 0;">
+                                                                        <div class="mat-sort-header-stem ng-tns-c137-163"></div>
+                                                                        <div class="mat-sort-header-indicator ng-tns-c137-163 ng-trigger ng-trigger-indicator" style="transform: translateY(0px);">
+                                                                            <div class="mat-sort-header-pointer-left ng-tns-c137-163 ng-trigger ng-trigger-leftPointer" style="transform: rotate(-45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-right ng-tns-c137-163 ng-trigger ng-trigger-rightPointer" style="transform: rotate(45deg);"></div>
+                                                                            <div class="mat-sort-header-pointer-middle ng-tns-c137-163"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!---->
+                                                                </div>
+                                                            </th>
+                                                            <!---->
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody><tr class="ng-star-inserted"><td><a href="javascript:void(0)">2024/010/REG</a></td><td><div mattooltipclass="tooltip-action" class="mat-tooltip-trigger" aria-describedby="cdk-describedby-message-0" cdk-describedby-host=""><div class="ellipsisclass">10th Meeting (REG-24)</div></div><!----></td><td>Cabinet Meeting dated 16/05/2024</td><td>09/05/2024</td><td><div class="ng-star-inserted">16/05/2024</div><!----><!----><!----></td><td class="ng-star-inserted"><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM241 119c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l31 31H120c-13.3 0-24 10.7-24 24s10.7 24 24 24H238.1l-31 31c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l72-72c9.4-9.4 9.4-24.6 0-33.9l-72-72z"/></svg><!----><!----></td><!----></tr><tr class="ng-star-inserted"><td><a href="javascript:void(0)">2024/09/REG</a></td><td><div mattooltipclass="tooltip-action" class="mat-tooltip-trigger" aria-describedby="cdk-describedby-message-2" cdk-describedby-host=""><div class="ellipsisclass">9th Meeting (REG-24)</div></div><!----></td><td>Cabinet Meeting dated 22/04/2024</td><td>17/04/2024</td><td><!----><div class=" ng-star-inserted">22/04/2024</div><!----><!----></td><td class="ng-star-inserted"><svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM241 119c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l31 31H120c-13.3 0-24 10.7-24 24s10.7 24 24 24H238.1l-31 31c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l72-72c9.4-9.4 9.4-24.6 0-33.9l-72-72z"/></svg><!----><!----></td><!----></tr></tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!---->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer _ngcontent-gpe-c197="" class="footer mt-auto footer-light">
+                <div _ngcontent-gpe-c197="" class="container-fluid center">
+                    <div _ngcontent-gpe-c197="" class="row"><div _ngcontent-gpe-c197="" class="col-md-12 small text-center">© 2024 Government of the Commonwealth of Dominica. All rights reserved.</div></div>
+                </div>
+            </footer>
+        </div>
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+        <script src="js/datatables/datatables-simple-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/bundle.js" crossorigin="anonymous"></script>
+        <script src="js/litepicker.js"></script>
+
+        <script src="https://assets.startbootstrap.com/js/sb-customizer.js"></script>
+    </body>
+</html>
