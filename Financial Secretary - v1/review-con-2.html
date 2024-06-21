@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content />
+        <meta name="author" content />
+        <title>Welcome to Dominica</title>
+        <link href="css/style.css" rel="stylesheet" />
+
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css" rel="stylesheet" />
+
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+        <script data-search-pseudo-elements="" defer="" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="nav-fixed">
+      <nav class="navbar navbar-marketing navbar-expand-lg navbar-dark fixed-top d-flex flex-wrap">
+            <div _ngcontent-ycd-c64="" class="container-fluid">
+			 <div class="header-content col px-md-3">
+                       <div class="d-flex align-items-center">
+                           <!-- Logo For Desktop View -->
+                           <a class="navbar-brand navbar-brand-desktop" href="/">
+                               <img src="images/logo.svg" alt="User" class="img-logo" />
+                           </a>
+<span class="app-brand-text demo menu-text fw-bolder ms-2"><p style="margin: 0px; font-size: 15px;">Government of the</p> <p style="margin: 0px;">Commonwealth of Dominica</p></span>
+                           <div class="header-content col px-md-3"><span class="app-brand-text demo menu-text fw-bolder">Electronic Cabinet Management Information System</span>
+                           <div style="font-size:12px">Cabinet Office</div></div>
+                           
+                           
+                       </div>
+            </div>
+                <ul _ngcontent-ycd-c64="" class="navbar-nav align-items-center ml-auto rlogo d-flex flex-row-reverse">
+                 
+                    <li _ngcontent-ycd-c64="" class="nav-item dropdown no-caret mr-2 dropdown-user">
+                        <div _ngcontent-ycd-c64="" id="navbarContent" class="navbar_collapse">
+                            <ul _ngcontent-ycd-c64="" class="navbar-nav ml-auto">
+                                <!-- User Dropdown-->
+                                <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
+                                    <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img class="dropdown-user-img" src="images/user.svg" />
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up right" aria-labelledby="navbarDropdownUserImage">
+                                        <h6 class="dropdown-header d-flex align-items-center">
+                                            <img class="dropdown-user-img" src="images/user.svg" />
+                                            <div class="dropdown-user-details">
+                                                <div class="dropdown-user-details-name">Osborne Riviere Skerrit</div>
+                                                <div class="dropdown-user-details-email">Financial Secretary</div>
+                                            </div>
+                                        </h6>
+                                        <div class="dropdown-divider"></div>
+
+                                        <a class="dropdown-item" href="#!">
+                                            <div class="dropdown-item-icon">
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="24"
+                                                    height="24"
+                                                    viewBox="0 0 24 24"
+                                                    fill="none"
+                                                    stroke="currentColor"
+                                                    stroke-width="2"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    class="feather feather-log-out"
+                                                >
+                                                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                                    <polyline points="16 17 21 12 16 7"></polyline>
+                                                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                                                </svg>
+                                            </div>
+                                            Logout
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-center ms-auto col-6">
+                        <!-- Documentation Dropdown-->
+
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link" href="permanent-secretary-dashbaord.html" role="button">
+                                <div class="fw-500">Home</div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">Cabinet Paper &amp; Notes</div>
+                                <svg
+                                    class="svg-inline--fa fa-chevron-right dropdown-arrow"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="chevron-right"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512"
+                                    data-fa-i2svg=""
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+           
+                                <div class="dropdown-divider m-0"></div>
+								 <div class="dropdown-divider m-0"></div>
+								  <a class="dropdown-item" href="inbox.html">
+
+                                    <div>
+                                        Inbox
+                                    </div>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="search.html">
+
+                                    <div>
+                                        Search 
+                                    </div>
+                                </a>
+                         
+
+                         
+
+
+
+						 </div>
+                        </li>
+					
+					                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">Cabinet Agenda</div>
+                                <svg
+                                    class="svg-inline--fa fa-chevron-right dropdown-arrow"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="chevron-right"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512"
+                                    data-fa-i2svg=""
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                       
+                            
+                                <a class="dropdown-item" href="inbox2.html" >
+
+                                    <div>
+                                        Circulated Agenda Inbox 
+                                    </div>
+                                </a>
+								
+                         
+
+               
+						 </div>
+                        </li>
+					
+					
+                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                                <a class="dropdown-item" href="cabinet-meeting-invitation.html">
+
+                                    <div>
+                                        Meeting Invitation 
+                                    </div>
+                                </a>
+						</div>
+                        </li>
+						
+						<li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="cabinet-meeting-invitation.html" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">
+                                    Cabinet Meeting
+                                </div>
+                                <svg
+                                    class="svg-inline--fa fa-chevron-right dropdown-arrow"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="chevron-right"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512"
+                                    data-fa-i2svg=""
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                                <a class="dropdown-item" href="cabinet-meeting-invitation.html">
+
+                                    <div>
+                                        Meeting Invitation 
+                                    </div>
+                                </a>
+						</div>
+                        </li>
+
+                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">
+                                    Cabinet Minutes
+                                </div>
+                                <svg
+                                    class="svg-inline--fa fa-chevron-right dropdown-arrow"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    data-prefix="fas"
+                                    data-icon="chevron-right"
+                                    role="img"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512"
+                                    data-fa-i2svg=""
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+                                    ></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+
+                              <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+								
+                                <a class="dropdown-item" href="review-inbox.html">
+
+                                    <div>
+                                      Review Cabinet Minutes
+                                    </div>
+                                </a>
+
+                            </div>
+							
+                        </li>
+
+                    </ul>
+               
+
+			   </div>
+            </div>
+        </nav>
+
+	  <div id="layoutSidenav_content">
+            <main>
+                <section class="content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card card-m-btm">
+                                    <div _ngcontent-sil-c294="" class="card-header border-bottom">Review Cabinet Minutes</div>
+                                    <mat-horizontal-stepper _ngcontent-wmi-c239="" aria-orientation="horizontal" role="tablist" class="mat-stepper-horizontal ng-tns-c158-446 mat-stepper-label-position-end ng-star-inserted">
+                                        <div class="mat-horizontal-stepper-header-container ng-tns-c158-446">
+                                            <mat-step-header
+                                                role="tab"
+                                                class="mat-step-header mat-focus-indicator mat-horizontal-stepper-header mat-primary ng-tns-c158-446 ng-star-inserted"
+                                                tabindex="-1"
+                                                id="cdk-step-label-9-0"
+                                                aria-posinset="1"
+                                                aria-setsize="5"
+                                                aria-controls="cdk-step-content-9-0"
+                                                aria-selected="false"
+                                            >
+                                                <div matripple="" class="mat-ripple mat-step-header-ripple"></div>
+                                                <div class="mat-step-icon mat-step-icon-state-done">
+                                                    <div class="mat-step-icon-content">
+                                                        <!----><!---->
+                                                        <mat-icon role="img" class="mat-icon notranslate material-icons mat-icon-no-color ng-star-inserted" aria-hidden="true" data-mat-icon-type="font">
+                                                            <i class="fa fa-check" aria-hidden="true"></i>
+                                                        </mat-icon>
+                                                        <!----><!----><!---->
+                                                    </div>
+                                                </div>
+                                                <div class="mat-step-label mat-step-label-active">
+                                                    <div class="mat-step-text-label ng-star-inserted">Meeting Details<!----></div>
+                                                    <!----><!----><!----><!---->
+                                                </div>
+                                            </mat-step-header>
+                                            <div class="mat-stepper-horizontal-line ng-tns-c158-446 ng-star-inserted"></div>
+                                            <!----><!---->
+                                            <mat-step-header
+                                                role="tab"
+                                                class="mat-step-header mat-focus-indicator mat-horizontal-stepper-header mat-primary ng-tns-c158-446 ng-star-inserted"
+                                                tabindex="0"
+                                                id="cdk-step-label-9-1"
+                                                aria-posinset="2"
+                                                aria-setsize="5"
+                                                aria-controls="cdk-step-content-9-1"
+                                                aria-selected="true"
+                                            >
+                                                <div matripple="" class="mat-ripple mat-step-header-ripple"></div>
+                                                <div class="mat-step-icon mat-step-icon-state-edit mat-step-icon-selected">
+                                                    <div class="mat-step-icon-content">
+                                                        <!----><!---->
+                                                        <mat-icon role="img" class="mat-icon notranslate material-icons mat-icon-no-color ng-star-inserted" aria-hidden="true" data-mat-icon-type="font">
+                                                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                                                        </mat-icon>
+                                                        <!----><!----><!---->
+                                                    </div>
+                                                </div>
+                                                <div class="mat-step-label mat-step-label-active mat-step-label-selected">
+                                                    <!---->
+                                                    <div class="mat-step-text-label ng-star-inserted">Cabinet Minutes Creation</div>
+                                                    <!----><!----><!---->
+                                                </div>
+                                            </mat-step-header>
+                                            <div class="mat-stepper-horizontal-line ng-tns-c158-446 ng-star-inserted"></div>
+                                            <!----><!---->
+                                            <mat-step-header
+                                                role="tab"
+                                                class="mat-step-header mat-focus-indicator mat-horizontal-stepper-header mat-primary ng-tns-c158-446 ng-star-inserted"
+                                                tabindex="-1"
+                                                id="cdk-step-label-9-2"
+                                                aria-posinset="3"
+                                                aria-setsize="5"
+                                                aria-controls="cdk-step-content-9-2"
+                                                aria-selected="false"
+                                            >
+                                                <div matripple="" class="mat-ripple mat-step-header-ripple"></div>
+                                                <div class="mat-step-icon mat-step-icon-state-number">
+                                                    <div class="mat-step-icon-content">
+                                                        <!---->
+                                                        <span class="ng-star-inserted">3</span>
+                                                        <!----><!----><!----><!---->
+                                                    </div>
+                                                </div>
+                                                <div class="mat-step-label">
+                                                    <!---->
+                                                    <div class="mat-step-text-label ng-star-inserted">Cabinet Minutes Summary</div>
+                                                    <!----><!----><!---->
+                                                </div>
+                                            </mat-step-header>
+
+                                            <!----><!---->
+
+                                            <!----><!---->
+
+                                            <!----><!----><!---->
+                                        </div>
+                                        <div class="mat-horizontal-content-container ng-tns-c158-446">
+                                            <div
+                                                role="tabpanel"
+                                                class="mat-horizontal-stepper-content ng-trigger ng-trigger-stepTransition ng-tns-c158-446 ng-star-inserted"
+                                                id="cdk-step-content-9-0"
+                                                aria-labelledby="cdk-step-label-9-0"
+                                                aria-expanded="false"
+                                                style="transform: translate3d(-100%, 0px, 0px); visibility: hidden;"
+                                            >
+                                                <!---->
+                                                <form _ngcontent-wmi-c239="" novalidate="" class="ng-untouched ng-pristine ng-valid ng-star-inserted" style=""><!----></form>
+                                                <!---->
+                                            </div>
+                                            <div
+                                                role="tabpanel"
+                                                class="mat-horizontal-stepper-content ng-trigger ng-trigger-stepTransition ng-tns-c158-446 ng-star-inserted"
+                                                id="cdk-step-content-9-1"
+                                                aria-labelledby="cdk-step-label-9-1"
+                                                aria-expanded="true"
+                                                style="transform: none; visibility: inherit;"
+                                            >
+                                                <app-approved-memo-list _ngcontent-wmi-c239="" _nghost-wmi-c230="" class="ng-star-inserted" style="">
+                                                    <div _ngcontent-ehm-c246="" class="row">
+                                                        <div _ngcontent-ehm-c246="" class="col-md-12">
+                                                            <div _ngcontent-ehm-c246="" class="tableDataList">
+                                                                <table _ngcontent-ehm-c246="" class="table table-hover table-bordered">
+                                                                    <thead _ngcontent-ehm-c246="">
+                                                                        <tr _ngcontent-ehm-c246="">
+                                                                            <th _ngcontent-ehm-c246="">Agenda Item Number</th>
+                                                                            <th _ngcontent-ehm-c246="">Cabinet Paper Number</th>
+                                                                            <th _ngcontent-ehm-c246="">Agenda Item Subject</th>
+                                                                            <th _ngcontent-ehm-c246="">Presented By</th>
+                                                                            <th _ngcontent-ehm-c246="">Ministry Name</th>
+                                                                            <th _ngcontent-ehm-c246="">Comments</th>
+																			<th _ngcontent-ehm-c246="">Action</th>
+                                                                            <!---->
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody _ngcontent-ehm-c246="">
+                                                                        <tr _ngcontent-ehm-c246="" class="ng-star-inserted" style="">
+                                                                            <td _ngcontent-ehm-c246="">1</td>
+                                                                            <td _ngcontent-ehm-c246=""><a _ngcontent-ehm-c246="" href="javascript:void(0);">D32/2024/CP/05/9</a></td>
+                                                                            <td _ngcontent-ehm-c246="">
+                                                                                <div _ngcontent-ehm-c246="" mattooltipclass="tooltip-action" class="mat-tooltip-trigger" aria-describedby="cdk-describedby-message-9" cdk-describedby-host="">
+                                                                                    <div _ngcontent-ehm-c246="" class="ellipsisclass">Cabinet Paper for Fisheries Management and Conservation Plan</div>
+                                                                                </div>
+                                                                                <!---->
+                                                                            </td>
+                                                                            <td _ngcontent-ehm-c246="">Ricardo Benjamin</td>
+                                                                            <td _ngcontent-ehm-c246="">Agriculture, Fisheries, Blue and Green Economy</td>
+                                                                            <td _ngcontent-ehm-c246="">
+                                                                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><img width="20px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACSUlEQVR4nO2au2tUQRTGf9r5bsVHfICIiJ2Fj92/IYpa2YuChQpiIwo2KgoW/gdhNSGJAUVBBS18IIr4QkQRy4gWFmIwipojA6eQOPfembuZ2bNhf/BBWHbPfh/zyMy5Cz16mGcFsAc4C1wBngMfgM8q9/czYFTfsxtYjhHWAieBl4DU1AvgBLC6EwG2AdeBP20EmC5X6xqwJUeANcDVGTTv0xQwBqxKFeIgMJE4hPyjb8CBmQwwH7icMYBMU0s9tMUS4EEHQ4jqPrC4bogFwBMDIUT1qM7IzM2wqOtoTL0Fc8yAaSnQkdAQG4GfBgxLgX4AG0KC3DRgVirk/hmXst2ASQnU1rIgQ4FF3BElFY1AD5eKCiyKWBtu5FLRDPQwCSz0FdhlYLpIpHb4glwwYEwidd4X5LYBYxIpt8P+x1sDxiRSb3xBPmbYpRo1ajdKfI37PjCeYZdq1qjdjA3y2sBUkUg5z7N3sZ8xYEwidc4XZKcBYxKp/qIb4UQXnbUm1bOXwS46a7XKimw2MF0kUJWNvBsGTEqFXEeyknXAdwNmpWRtrA+dp0cNGJYCHSKCOdr+F2MaVW9RuGbYYwPmRfUQmEdN3FXyjoEQ99ppmVppYg+0MxI+9uuzi1wBvgL7SMCyTAGmgBFgJYnYmzjAb21Su9NFUlJtx0+B40AfGXBf8qvC0BddR6d0arhnK++0F/BJH0+714aB03ptWEpmLlaEeK9dfNNsqhiNgaLWpTXuFuwst/QS1DW0tO3ySuf+4U79SqFHD/LzF0AJLnbrYCGKAAAAAElFTkSuQmCC"></a>
+
+                                                                                <div class="modal fade bd-example-modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                                                                                    <div class="modal-dialog modal-xl">
+                                                                                        <div class="modal-content">
+                                                                                            <div class="modal-header">
+                                                                                                <h3 class="modal-title fs-5" id="exampleModalLabel">Comments</h3>
+                                                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                                <div _ngcontent-joq-c289="" class="body">
+                                                                                                    <div _ngcontent-joq-c289="" class="agendaitemdetails mb-4">
+																									
+                                                                                                       
+																									 <mat-dialog-content >
+  
+    <div _ngcontent-kme-c243="" class="ng-star-inserted" style="">
+        <form _ngcontent-kme-c243="" novalidate="" class="comment-form ng-untouched ng-pristine ng-invalid">
+            <div _ngcontent-kme-c243="" class="col-md-12">
+                <div _ngcontent-kme-c243="" class="mt-2 input-group">
+                    <grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none;"></grammarly-extension>
+                    <grammarly-extension data-grammarly-shadow-root="true" class="dnXmp" style="position: absolute; top: 0px; left: 0px; pointer-events: none;"></grammarly-extension>
+                    <div _ngcontent-kme-c243="" class="comment-field">
+                        <div _ngcontent-kme-c243="" class="form-input">
+                            <textarea _ngcontent-kme-c243="" formcontrolname="commentField" placeholder="Add a comment..." rows="5" maxlength="1000" class="ng-untouched ng-pristine ng-invalid" spellcheck="false"></textarea>
+                        </div>
+                    </div>
+                    <div _ngcontent-kme-c243="" class="form-error err-msg"><!----></div>
+                    <div _ngcontent-kme-c243="" class="form-error info-msg">
+                        <span _ngcontent-kme-c243="">* Max 1000 characters allowed</span><br _ngcontent-kme-c243="" />
+                        <!---->
+                    </div>
+                </div>
+                <div _ngcontent-kme-c243="" class="mt-2">
+                    <button _ngcontent-kme-c243="" mat-button="" class="mat-focus-indicator actionButton borderR mat-button mat-button-base">
+                        <span class="mat-button-wrapper">Post</span><span matripple="" class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!---->
+    <div _ngcontent-kme-c243="" class="col-md-12 refresh-btn text-right mt-2">
+        <i
+            _ngcontent-kme-c243=""
+            mattooltipclass="tooltip-action"
+            mattooltip="Click to refresh comments"
+            class="mat-tooltip-trigger material-icons table_action"
+            style="color: #22b24b;"
+            aria-describedby="cdk-describedby-message-2"
+            cdk-describedby-host=""
+        >
+           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/ElEQVR4nO2VsQ3CMBBFHwU0QEnJAqRAogCmYBYmAZERMgMdYwANLS1VoEiBABl9Sygkjo3kjiedZCX3/eVL7gx/AhkoLEPgAjxLcQMOwBpIfDdvAVuFWVsWwKPCxMYdSIFOk8HyQ2TWLrrADNgAhTQ7l8nkI/GptXnmwxg4S2dO8kUfOFUc/aR3viaFyjUqv8wc9c3wJ5Vm5UqyG//CTNp9LIOetHksAy99dINcCb1YBkclTGMZrJVgOtSXLOQ3T9QshZrHh+BGtQ1zDjAJGjVtDS6bmAJzjw8fMizfUzFVuerq+9Aobxr3ThLNFtP+1wqTiy6lugvrD428ABlveYyKpSbRAAAAAElFTkSuQmCC">
+        </i>
+        <!---->
+    </div>
+    <div _ngcontent-kme-c243="" class="col-md-12 comment-view">
+        <div _ngcontent-kme-c243="" class="comment-row ng-star-inserted">
+            <div _ngcontent-kme-c243="">
+                <span _ngcontent-kme-c243="" class="sender-name"><strong _ngcontent-kme-c243="">Ricardo Benjamin</strong></span><span _ngcontent-kme-c243="" class="sent-time">Commented on: 12-May-2024 1:15 pm</span>
+            </div>
+            <div _ngcontent-kme-c243="" class="comment-text">Changes are required in the estimation.</div>
+        </div>
+        <!---->
+    </div>
+    <div _ngcontent-kme-c243="" class="col-md-12 comment-view">
+        <div _ngcontent-kme-c243="" class="comment-row ng-star-inserted">
+            <div _ngcontent-kme-c243="">
+                <span _ngcontent-kme-c243="" class="sender-name"><strong _ngcontent-kme-c243="">Darius Pierre</strong></span><span _ngcontent-kme-c243="" class="sent-time">Commented on: 12-May-2024 2:07 pm</span>
+            </div>
+            <div _ngcontent-kme-c243="" class="comment-text">Amendments can be done</div>
+        </div>
+        <!---->
+    </div>
+</mat-dialog-content>
+  
+																									   
+																									   
+																									   
+																									   
+																								   </div>
+                                                                                                 
+																								  
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </td>
+                                                                           <td _ngcontent-ehm-c246="">
+                                                                                <a data-bs-toggle="modal" data-bs-target="#exampleModalA" href="#"><svg class="svg-inline--fa fa-location-arrow" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="location-arrow" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M413.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144C5.7 200.2-2.3 215.2 .6 230.2s16.1 25.8 31.4 25.8H208V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z"></path></svg><!-- <i class="fa fa-location-arrow" aria-hidden="true"></i> Font Awesome fontawesome.com --></a>
+
+                                                                                <div class="modal fade bd-example-modal-xl" id="exampleModalA" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                                                                                    <div class="modal-dialog modal-xl">
+                                                                                        <div class="modal-content">
+                                                                                            <div class="modal-header">
+                                                                                                <h3 class="modal-title fs-5" id="exampleModalLabel">Create Cabinet Minutes</h3>
+                                                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                                <div _ngcontent-joq-c289="" class="body">
+                                                                                                    <div _ngcontent-joq-c289="" class="agendaitemdetails mb-4">
+                                                                                                        <div _ngcontent-joq-c289="" class="row">
+                                                                                                            <div _ngcontent-joq-c289="" class="col-md-6">
+                                                                                                                <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                    <div _ngcontent-joq-c289="" class="input-group">
+                                                                                                                        <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                            <label _ngcontent-joq-c289="">Agenda Item Number</label>
+                                                                                                                            <input _ngcontent-joq-c289="" readonly="" class="form-control ng-untouched ng-pristine ng-valid" value="1">
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div _ngcontent-joq-c289="" class="col-md-6">
+                                                                                                                <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                    <div _ngcontent-joq-c289="" class="input-group">
+                                                                                                                        <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                            <label _ngcontent-joq-c289="">Presented By</label>
+                                                                                                                            <input _ngcontent-joq-c289="" readonly="" class="form-control ng-untouched ng-pristine ng-valid" value="Ricardo Benjamin">
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div _ngcontent-joq-c289="" class="row">
+                                                                                                            <div _ngcontent-joq-c289="" class="col-md-6">
+                                                                                                                <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                    <div _ngcontent-joq-c289="" class="input-group">
+                                                                                                                        <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                            <label _ngcontent-joq-c289="">Cabinet Paper Number</label>
+                                                                                                                            <input _ngcontent-joq-c289="" readonly="" class="form-control ng-untouched ng-pristine ng-valid" value="D32/2024/CP/05/9">
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div _ngcontent-joq-c289="" class="col-md-6">
+                                                                                                                <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                    <div _ngcontent-joq-c289="" class="input-group">
+                                                                                                                        <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                            <label _ngcontent-joq-c289="">Ministry Name</label>
+                                                                                                                            <input _ngcontent-joq-c289="" readonly="" class="form-control ng-untouched ng-pristine ng-valid" value="Agriculture, Fisheries, Blue and Green Economy">
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div _ngcontent-joq-c289="" class="row">
+                                                                                                            <div _ngcontent-joq-c289="" class="col-md-12">
+                                                                                                                <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                    <div _ngcontent-joq-c289="" class="input-group">
+                                                                                                                        <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                            <label _ngcontent-joq-c289="">Agenda Item Subject <span _ngcontent-joq-c289="" class="form-error">*</span></label>
+                                                                                                                            <input _ngcontent-joq-c289="" class="form-control ng-untouched ng-pristine ng-valid" value="Cabinet Paper for Fisheries Management and Conservation Plan">
+                                                                                                                        </div>
+                                                                                                                        <!---->
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div _ngcontent-joq-c289="" class="col-md-6">
+                                                                                                                <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                    <div _ngcontent-joq-c289="" class="input-group">
+                                                                                                                        <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                            <label _ngcontent-joq-c289="">Cabinet Minutes Number</label>
+                                                                                                                            <input _ngcontent-joq-c289="" readonly="" class="form-control ng-untouched ng-pristine ng-valid" value="CON/2024/010/REG">
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div _ngcontent-joq-c289="" class="col-md-6">
+                                                                                                                <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                    <div _ngcontent-joq-c289="" class="input-group">
+                                                                                                                        <div _ngcontent-joq-c289="" class="form-line">
+                                                                                                                            <label _ngcontent-joq-c289="">Status</label>
+                                                                                                                      <select name="cars" id="cars" class="select-dropdown">
+																														<option value="volvo">Approved</option>
+																														<option value="volvo">					Not Approved</option>
+																														<option value="volvo">					Deferred</option>
+																														<option value="volvo">						Rejected</option>
+																														<option value="volvo">						Withdrawn</option>
+
+																														</select>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div _ngcontent-joq-c289="">
+                                                                                                     
+                                                                                                        <div _ngcontent-joq-c289="" class="row">
+                                                                                                            <div _ngcontent-joq-c289="" class="col-md-6">
+                                                                                                                <div _ngcontent-joq-c289="" class="document_view_container ht_600p">
+                                                                                                                    <div _ngcontent-joq-c289="" class="editor-content-section">
+                                                                                                                        <div _ngcontent-joq-c289="" class="ng-star-inserted"><div _ngcontent-joq-c289="">
+<p> </p><p>     </p><div><p style="text-align:center; font-weight:bold"><strong>Cabinet</strong></p></div><p style="text-align: center;"><strong>Cabinet Paper for Creating Policies for Marine Pollution Prevention and Control</strong></p><p style="text-align:center;font-weight:bold"><strong>Cabinet Paper by the Minister of&nbsp;</strong><span style="background-color: unset; text-align: inherit; font-weight: 400;"><strong>Agriculture, Fisheries, Blue and Green Economy</strong></span></p><p><strong><br></strong></p><p><span style="color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Helvetica Neue&quot;, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-weight: 400; text-align: start; text-indent: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Marine pollution poses a significant threat to the health of our oceans, coastal ecosystems, and marine life. It is imperative that we take proactive measures to prevent and control marine pollution to safeguard our environment and sustainably manage our marine resources. In light of this, the following Cabinet Paper outlines proposed policies for addressing marine pollution:</span></p><p><span style="color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Helvetica Neue&quot;, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-weight: 400; text-align: start; text-indent: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); display: inline !important; float: none;"><strong>Decision Points:</strong></span></p><ol><li><span style="color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Helvetica Neue&quot;, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-weight: 400; text-align: left; text-indent: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Shall the Cabinet establish a comprehensive regulatory framework to govern marine pollution prevention and control activities</span></li><li><span style="color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Helvetica Neue&quot;, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-weight: 400; text-align: left; text-indent: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Decision Point: Shall the Cabinet conduct a comprehensive assessment to identify major sources of marine pollution, including industrial discharges, agricultural runoff, sewage outfalls, and maritime activities?</span></li><li><span style="color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Helvetica Neue&quot;, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-weight: 400; text-align: left; text-indent: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Decision Point: Shall the Cabinet develop and implement pollution prevention strategies targeting key sources of marine pollution.</span></li></ol><p><br></p><p>     </p><p> </p></div></div>
+                                                                                                                        <!----><!---->
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div _ngcontent-joq-c289="" class="col-md-6">
+                                                                                                                <div _ngcontent-joq-c289="" class="level_padding"></div>
+                                                                                                                <app-conclusion-comparison _ngcontent-joq-c289="" _nghost-joq-c287="" class="ng-star-inserted" style="">
+                                                                                                                    <div _ngcontent-joq-c287="" class="text-right"></div>
+                                                                                                                    <!---->
+                                                                                                                </app-conclusion-comparison>
+                                                                                                                <!---->
+                                                                                                                <div _ngcontent-joq-c289="" class="mb-4">
+                                                                                                                    <label _ngcontent-joq-c289="">
+                                                                                                                        Cabinet Minutes Body
+
+                                                                                                                    </label>
+                                                                                                                    <!---->
+                                                                                                                    <div _ngcontent-joq-c289="" class="document_view_container ng-star-inserted">
+                                                                                                                        <div _ngcontent-joq-c289="" class="editor-content-section">
+                                                                                                                            <div _ngcontent-joq-c289="">
+                                                                                                                              <div><p style="text-align:center; font-weight:bold"><br></p></div><p><span style="color: rgb(13, 13, 13); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Helvetica Neue&quot;, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-weight: 400; text-align: start; text-indent: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); display: inline !important; float: none;">Marine pollution poses a significant threat to the health of our oceans, coastal ecosystems, and marine life. It is imperative that we take proactive measures to prevent and control marine pollution to safeguard our environment and sustainably manage our marine resources. In light of this, the following Cabinet Paper outlines proposed policies for addressing marine pollution:</span></p>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <!----><!---->
+                                                                                                                </div>
+                                                                                                                <div _ngcontent-joq-c289="" class="mb-4">
+                                                                                                                    <label _ngcontent-joq-c289="">Decision Points</label>
+                                                                                                                    <app-decisionpointdifferences _ngcontent-joq-c289="" class="decisioncomparision ng-star-inserted" _nghost-joq-c288="" style="">
+                                                                                                                 
+                                                                                                                        <!---->
+                                                                                                                    </app-decisionpointdifferences>
+                                                                                                                    <!---->
+                                                                                                                    <table _ngcontent-joq-c289="" role="grid" class="table table table-bordered table-hover dataTable table-bordered">
+                                                                                                                        <thead _ngcontent-joq-c289="" role="rowgroup">
+                                                                                                                            <tr _ngcontent-joq-c289="" role="row">
+                                                                                                                                <th _ngcontent-joq-c289="">S.No</th>
+                                                                                                                                <th _ngcontent-joq-c289="">Decision Point</th>
+                                                                                                                               
+                                                                                                                            </tr>
+                                                                                                                        </thead>
+                                                                                                                        <tbody _ngcontent-joq-c289="" role="rowgroup">
+                                                                                                                            <tr _ngcontent-joq-c289="" class="text-center ng-star-inserted" style="">
+                                                                                                                                <td _ngcontent-joq-c289="">1</td>
+                                                                                                                                <td _ngcontent-joq-c289="">
+                                                                                                                                    <textarea _ngcontent-joq-c289="" class="decision_text ng-untouched ng-pristine ng-valid">Cabinet established a comprehensive regulatory framework to govern marine pollution prevention and control activities</textarea>
+                                                                                                                                </td> </tr>
+                                                                                                                            <tr _ngcontent-joq-c289="" class="text-center ng-star-inserted" style="">
+                                                                                                                                <td _ngcontent-joq-c289="">2</td>
+                                                                                                                                <td _ngcontent-joq-c289="">
+                                                                                                                                    <textarea _ngcontent-joq-c289="" class="decision_text ng-untouched ng-pristine ng-valid">Cabinet conducted a comprehensive assessment to identify major sources of marine pollution, including industrial discharges, agricultural runoff, sewage outfalls, and maritime activities.</textarea>
+                                                                                                                                </td>
+                                                                                                                             
+                                                                                                                            </tr>
+                                                                                                                            <!----><!---->
+                                                                                                                        </tbody>
+                                                                                                                    </table>
+                                                                                                           
+                                                                                                                    <!---->
+                                                                                                                </div>
+                                                                                                                <div _ngcontent-joq-c289="" class="mb-4">
+                                                                                                                    <label _ngcontent-joq-c289="">Additional Decisions</label>
+                                                                                                                    <app-decisionpointdifferences _ngcontent-joq-c289="" class="additionaldecisioncomparision ng-star-inserted" _nghost-joq-c288="" style="">
+                                                                                                                        <div _ngcontent-joq-c288="" class="text-right"></div>
+                                                                                                                        <!---->
+                                                                                                                    </app-decisionpointdifferences>
+                                                                                                                    <!---->
+                                                                                                                    <table _ngcontent-joq-c289="" role="grid" class="table table table-bordered table-hover dataTable table-bordered">
+                                                                                                                        <thead _ngcontent-joq-c289="" role="rowgroup">
+                                                                                                                            <tr _ngcontent-joq-c289="" role="row">
+                                                                                                                                <th _ngcontent-joq-c289="">S.No</th>
+                                                                                                                                <th _ngcontent-joq-c289="">Decision Point</th>
+                                                                                                                               
+                                                                                                                            </tr>
+                                                                                                                        </thead>
+                                                                                                                        <tbody _ngcontent-joq-c289="" role="rowgroup">
+                                                                                                                            <tr _ngcontent-joq-c289="" class="text-center ng-star-inserted" style="">
+                                                                                                                                <td _ngcontent-joq-c289="">1</td>
+                                                                                                                                <td _ngcontent-joq-c289="">
+                                                                                                                                    <textarea _ngcontent-joq-c289="" class="decision_text ng-untouched ng-pristine ng-valid"></textarea>
+                                                                                                                                </td> </tr>
+                                                                                                                            <!----><!---->
+                                                                                                                        </tbody>
+                                                                                                                    </table>
+                                                                                                               
+                                                                                                                </div>
+                                                                                                                <div _ngcontent-joq-c289="" class="text-right mb-4"><!----><!----></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                           
+                                                                                                    <div _ngcontent-joq-c289="">
+                                                                                                        <div _ngcontent-joq-c289="" class="row">
+                                                                                                            <div _ngcontent-joq-c289="" class="text-right col-md-12">
+                                                                                                                <button _ngcontent-joq-c289="" mat-button="" class="mat-focus-indicator actionButton borderR mat-button mat-button-base btn-close" type="button" data-bs-dismiss="modal">
+                                                                                                                    <span class="mat-button-wrapper"> Close </span><span matripple="" class="mat-ripple mat-button-ripple"></span>
+                                                                                                                    <span class="mat-button-focus-overlay"></span>
+                                                                                                                </button>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!----><!----><!----><!---->
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                         <div _ngcontent-yly-c237="" class="md-col-12 mt-2 mb-2"><button _ngcontent-yly-c237="" type="button" mat-button="" class="mat-focus-indicator actionButton borderR mat-button mat-button-base" data-bs-toggle="modal" data-bs-target="#exampleModal1"><span class="mat-button-wrapper">Preview Cabinet Minutes</span><span matripple="" class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span></button>
+																<div class="modal fade bd-example-modal-xl" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                                                                                    <div class="modal-dialog modal-xl" style="min-width:97vw; margin:10px">
+                                                                                        <div class="modal-content">
+                                                                                            <div class="modal-header">
+                                                                                                <h3 class="modal-title fs-5" id="exampleModalLabel"></h3>
+                                                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                                                                            </div>
+																						   <div class="modal-body" style="height: 85vh">
+																						<div _ngcontent-vgw-c101="" class="file_content" style="height: 100%">
+																						<iframe src="DemoPdf.pdf" style="width: 100%;height: 100%;border: none;"></iframe>
+</div>
+</div>
+																						   
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+															</div>
+                                                            <div _ngcontent-ehm-c246="" class="mt-2 mb-4 text-right">
+                                                                <a _ngcontent-ehm-c246="" type="button" mat-button="" class="mat-focus-indicator actionButton borderR mat-button mat-button-base" href="review-con-1.html">
+                                                                    <span class="mat-button-wrapper">Previous</span><span matripple="" class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span>
+                                                                </a>
+                                                                <a _ngcontent-ehm-c246="" type="button" mat-button="" class="mat-focus-indicator actionButton borderR mat-button mat-button-base ml-2" href="review-con-3.html">
+                                                                    <span class="mat-button-wrapper">Next</span><span matripple="" class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </app-approved-memo-list>
+                                                <!----><!---->
+                                                <form _ngcontent-wmi-c239="" novalidate="" class="ng-untouched ng-pristine ng-valid ng-star-inserted" style=""></form>
+                                                <!---->
+                                            </div>
+                                            <div
+                                                role="tabpanel"
+                                                class="mat-horizontal-stepper-content ng-trigger ng-trigger-stepTransition ng-tns-c158-446 ng-star-inserted"
+                                                id="cdk-step-content-9-2"
+                                                aria-labelledby="cdk-step-label-9-2"
+                                                aria-expanded="false"
+                                                style="transform: translate3d(100%, 0px, 0px); visibility: hidden;"
+                                            >
+                                                <!---->
+                                                <form _ngcontent-wmi-c239="" novalidate="" class="ng-untouched ng-pristine ng-valid ng-star-inserted" style=""></form>
+                                                <!---->
+                                            </div>
+                                            <div
+                                                role="tabpanel"
+                                                class="mat-horizontal-stepper-content ng-trigger ng-trigger-stepTransition ng-tns-c158-446 ng-star-inserted"
+                                                id="cdk-step-content-9-3"
+                                                aria-labelledby="cdk-step-label-9-3"
+                                                aria-expanded="false"
+                                                style="transform: translate3d(100%, 0px, 0px); visibility: hidden;"
+                                            >
+                                                <!---->
+                                                <form _ngcontent-wmi-c239="" novalidate="" class="ng-untouched ng-pristine ng-valid ng-star-inserted" style=""></form>
+                                                <!---->
+                                            </div>
+                                            <div
+                                                role="tabpanel"
+                                                class="mat-horizontal-stepper-content ng-trigger ng-trigger-stepTransition ng-tns-c158-446 ng-star-inserted"
+                                                id="cdk-step-content-9-4"
+                                                aria-labelledby="cdk-step-label-9-4"
+                                                aria-expanded="false"
+                                                style="transform: translate3d(100%, 0px, 0px); visibility: hidden;"
+                                            >
+                                                <!----><!----><!---->
+                                            </div>
+                                            <!---->
+                                        </div>
+                                    </mat-horizontal-stepper>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer _ngcontent-gpe-c197="" class="footer mt-auto footer-light">
+                <div _ngcontent-gpe-c197="" class="container-fluid center">
+                    <div _ngcontent-gpe-c197="" class="row"><div _ngcontent-gpe-c197="" class="col-md-12 small text-center">© 2024 Government of the Commonwealth of Dominica. All rights reserved.</div></div>
+                </div>
+            </footer>
+        </div>
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+        <script src="js/datatables/datatables-simple-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/bundle.js" crossorigin="anonymous"></script>
+        <script src="js/litepicker.js"></script>
+
+        <script src="https://assets.startbootstrap.com/js/sb-customizer.js"></script>
+    </body>
+</html>
