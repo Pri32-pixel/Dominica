@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content />
+        <meta name="author" content />
+        <title>Welcome to Dominica</title>
+        <link href="css/style.css" rel="stylesheet" />
+
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css" rel="stylesheet" />
+
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+        <script data-search-pseudo-elements="" defer="" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="nav-fixed">
+<nav class="navbar navbar-marketing navbar-expand-lg navbar-dark fixed-top d-flex flex-wrap">
+            <div _ngcontent-ycd-c64="" class="container-fluid">
+			 <div class="header-content col px-md-3">
+                       <div class="d-flex align-items-center">
+                           <!-- Logo For Desktop View -->
+                           <a class="navbar-brand navbar-brand-desktop" href="/">
+                               <img src="images/logo.svg" alt="User" class="img-logo">
+                           </a>
+<span class="app-brand-text demo menu-text fw-bolder ms-2"><p style="margin: 0px; font-size: 15px;">Government of the</p> <p style="margin: 0px;">Commonwealth of Dominica</p></span>
+                           <div class="header-content col px-md-3"><span class="app-brand-text demo menu-text fw-bolder">Electronic Cabinet Management Information System</span>
+                           <div style="font-size:12px">Cabinet Office</div></div>
+                           
+                           
+                       </div>
+            </div>
+                <ul _ngcontent-ycd-c64="" class="navbar-nav align-items-center ml-auto rlogo d-flex flex-row-reverse">
+                 
+                    <li _ngcontent-ycd-c64="" class="nav-item dropdown no-caret mr-2 dropdown-user">
+                        <div _ngcontent-ycd-c64="" id="navbarContent" class="navbar_collapse">
+                            <ul _ngcontent-ycd-c64="" class="navbar-nav ml-auto">
+                                <!-- User Dropdown-->
+                                <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
+                                    <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img class="dropdown-user-img" src="images/user.svg">
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up right" aria-labelledby="navbarDropdownUserImage">
+                                        <h6 class="dropdown-header d-flex align-items-center">
+                                            <img class="dropdown-user-img" src="images/user.svg">
+                                            <div class="dropdown-user-details">
+                                                <div class="dropdown-user-details-name">Malik Thomas</div>
+                                                <div class="dropdown-user-details-email">Permanent Secretary</div>
+                                            </div>
+                                        </h6>
+                                        <div class="dropdown-divider"></div>
+
+                                        <a class="dropdown-item" href="#!">
+                                            <div class="dropdown-item-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
+                                                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                                    <polyline points="16 17 21 12 16 7"></polyline>
+                                                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                                                </svg>
+                                            </div>
+                                            Logout
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-center ms-auto col-6">
+                        <!-- Documentation Dropdown-->
+
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link" href="permanent-secretary-dashbaord.html" role="button">
+                                <div class="fw-500">Home</div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <div class="fw-500">Cabinet Paper &amp; Notes</div>
+                                <svg class="svg-inline--fa fa-chevron-right dropdown-arrow" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                    <path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up " aria-labelledby="navbarDropdownDocs" data-bs-popper="static">
+                                <a class="dropdown-item" href="ps-create-memo.html">
+                                  
+                                    <div>
+                                        Create Cabinet Paper 
+                                    </div>
+                                </a>
+								 <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="ps-create-notes.html">
+                                  
+                                    <div>
+                                        Create Cabinet Notes 
+                                    </div>
+                                </a><div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="inbox.html">
+                                    
+                                    <div>
+                                        Inbox 
+                                    </div>
+                                </a>
+								 <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item" href="search.html">
+                                    
+                                    <div>
+                                        Search 
+                                    </div>
+                                </a>
+                         
+
+                         
+
+
+
+						 </div>
+                        </li>
+
+                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="cabinet-meeting-invitation.html" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">
+                                    Cabinet Meeting
+                                </div>
+                                <svg class="svg-inline--fa fa-chevron-right dropdown-arrow" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                    <path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                                <a class="dropdown-item" href="cabinet-meeting-invitation.html">
+                                  
+                                    <div>
+                                        Meeting Invitation 
+                                    </div>
+                                </a>
+						</div>
+                        </li>
+
+                        <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="fw-500">
+                                    Cabinet Minutes
+                                </div>
+                                <svg class="svg-inline--fa fa-chevron-right dropdown-arrow" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                    <path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path>
+                                </svg>
+                                <!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                                <a class="dropdown-item" href="download-extract.html">
+                                  
+                                    <div>
+                                       Download Cabinet Decision 
+                                    </div>
+                                </a>
+                                
+                                
+
+                            </div>
+                        </li>
+
+                    </ul>
+               
+
+			   </div>
+            </div>
+        </nav>
+
+        <div id="layoutSidenav_content">
+            <main>
+                <section _ngcontent-inl-c279="" class="content">
+                    <div _ngcontent-inl-c279="" class="container-fluid">
+                        <div _ngcontent-inl-c279="" style="width: 100%;">
+                            <div _ngcontent-inl-c279="" class="card card-m-btm">
+                                <div _ngcontent-inl-c279="" class="card-header">Cabinet Meeting Request</div>
+                                <div _ngcontent-inl-c279="" class="body">
+                                    <form _ngcontent-inl-c279="" novalidate="" class="row ng-untouched ng-pristine ng-valid">
+                                        <div _ngcontent-inl-c279="" class="col-md-12 ng-star-inserted">
+                                            <div _ngcontent-inl-c279="" class="row">
+                                                <div _ngcontent-inl-c279="" class="col-md-12 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label">
+                                                            <label _ngcontent-inl-c279="">Meeting Caption <span _ngcontent-inl-c279="" class="form-error">*</span></label>
+                                                        </div>
+                                                        <div _ngcontent-inl-c279="" class="form-input"><input _ngcontent-inl-c279="" formcontrolname="meetingCaption" id="meetingCaption" class="ng-untouched ng-pristine ng-valid" value="Cabinet Meeting dated 10/05/2024"/></div>
+                                                    </div>
+                                                    <div _ngcontent-inl-c279="" class="form-error"><!----></div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-6 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label"><label _ngcontent-inl-c279="">Agenda Session </label></div>
+                                                        <div _ngcontent-inl-c279="" class="form-input">
+															<select name="cars" id="cars" style="width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border-top: none;
+    border-left: none;
+    border-right: none;">
+  
+  <option value="volvo">DM(2024)</option>
+  <option value="volvo">DM(2023)</option>
+</select>
+															
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-6 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label"><label _ngcontent-inl-c279="">Agenda Creation Date</label></div>
+                                                        <div _ngcontent-inl-c279="" class="form-input">
+                                                            <input
+                                                                _ngcontent-inl-c279=""
+                                                                formcontrolname="agendaCreationDate"
+                                                                disabled=""
+                                                                class="mat-datepicker-input form-control ng-untouched ng-pristine"
+                                                                aria-haspopup="dialog"
+                                                                data-mat-calendar="mat-datepicker-3"
+																value="7/05/2024"
+                                                            />
+                                                            <mat-datepicker-toggle _ngcontent-inl-c279="" matsuffix="" class="mat-datepicker-toggle" data-mat-calendar="mat-datepicker-3">
+                                                                <button
+                                                                    mat-icon-button=""
+                                                                    type="button"
+                                                                    class="mat-focus-indicator mat-icon-button mat-button-base mat-button-disabled"
+                                                                    aria-haspopup="dialog"
+                                                                    aria-label="Open calendar"
+                                                                    tabindex="-1"
+                                                                    disabled="true"
+                                                                >
+                                                                    <span class="mat-button-wrapper">
+                                                                        <svg viewBox="0 0 24 24" width="24px" height="24px" fill="currentColor" focusable="false" class="mat-datepicker-toggle-default-icon ng-star-inserted">
+                                                                            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"></path>
+                                                                        </svg>
+                                                                        <!---->
+                                                                    </span>
+                                                                    <span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span>
+                                                                </button>
+                                                            </mat-datepicker-toggle>
+                                                            <mat-datepicker _ngcontent-inl-c279=""></mat-datepicker>
+                                                            <!---->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-6 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label"><label _ngcontent-inl-c279="">Meeting Number </label></div>
+                                                        <div _ngcontent-inl-c279="" class="form-input"><input _ngcontent-inl-c279="" formcontrolname="meetingNumber" disabled="" class="ng-untouched ng-pristine" value="10"/></div>
+                                                    </div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-6 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label"><label _ngcontent-inl-c279="">Meeting Type </label></div>
+                                                        <div _ngcontent-inl-c279="" class="form-input">
+															<input _ngcontent-inl-c279="" formcontrolname="meetingNumber" disabled="" class="ng-untouched ng-pristine" value="Regular"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-6 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label">
+                                                            <label _ngcontent-inl-c279="">Meeting Date <span _ngcontent-inl-c279="" class="form-error">*</span></label>
+                                                        </div>
+                                                        <div _ngcontent-inl-c279="" class="form-input">
+                                                            <input
+                                                                _ngcontent-inl-c279=""
+                                                                formcontrolname="meetingDate"
+                                                                class="mat-datepicker-input form-control click-off ng-untouched ng-pristine ng-valid"
+                                                                aria-haspopup="dialog"
+                                                                data-mat-calendar="mat-datepicker-4"
+																value="10/05/2024"
+                                                            />
+                                                            <mat-datepicker-toggle _ngcontent-inl-c279="" matsuffix="" class="mat-datepicker-toggle" data-mat-calendar="mat-datepicker-4">
+                                                                <button mat-icon-button="" type="button" class="mat-focus-indicator mat-icon-button mat-button-base" aria-haspopup="dialog" aria-label="Open calendar" tabindex="0">
+                                                                    <span class="mat-button-wrapper">
+                                                                        <svg viewBox="0 0 24 24" width="24px" height="24px" fill="currentColor" focusable="false" class="mat-datepicker-toggle-default-icon ng-star-inserted">
+                                                                            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"></path>
+                                                                        </svg>
+                                                                        <!---->
+                                                                    </span>
+                                                                    <span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span>
+                                                                </button>
+                                                            </mat-datepicker-toggle>
+                                                            <mat-datepicker _ngcontent-inl-c279=""></mat-datepicker>
+                                                            <!---->
+                                                        </div>
+                                                    </div>
+                                                    <div _ngcontent-inl-c279="" class="form-error"><!----><!----></div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-6 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line meeting-time">
+                                                        <div _ngcontent-inl-c279="" class="form-label">
+                                                            <label _ngcontent-inl-c279="">Meeting Time <span _ngcontent-inl-c279="" class="form-error">*</span></label>
+                                                        </div>
+                                                        <div _ngcontent-inl-c279="" class="form-input">
+                                                           <input value="11.00 AM"formcontrolname="meetingLocation" class="ng-untouched ng-pristine ng-valid" />
+                                                        </div>
+                                                    </div>
+                                                    <div _ngcontent-inl-c279="" class="form-error"><!----><!----></div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-6 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label">
+                                                            <label _ngcontent-inl-c279="">Meeting Location <span _ngcontent-inl-c279="" class="form-error">*</span></label>
+                                                        </div>
+                                                        <div _ngcontent-inl-c279="" class="form-input"><input _ngcontent-inl-c279="" formcontrolname="meetingLocation" class="ng-untouched ng-pristine ng-valid" value="Cabinet hall, Cabinet Office"/></div>
+                                                    </div>
+                                                    <div _ngcontent-inl-c279="" class="form-error"><!----></div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-6 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label"><label _ngcontent-inl-c279="">Meeting Reference Number </label></div>
+                                                        <div _ngcontent-inl-c279="" class="form-input"><input _ngcontent-inl-c279="" formcontrolname="meetingRefNumber" disabled="" class="ng-untouched ng-pristine" value="Meeting 10th DM(2024)"/></div>
+                                                    </div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-12 mt-2">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label">
+                                                            <label _ngcontent-inl-c279="">Meeting Session <span _ngcontent-inl-c279="" class="form-error">*</span></label>
+                                                        </div>
+                                                    </div>
+                                                    <div _ngcontent-inl-c279="" formarrayname="slotList" class="profile-form ng-untouched ng-pristine ng-valid">
+                                                        <div _ngcontent-inl-c279="" class="table-wrapper-scroll-y my-custom-scrollbar">
+                                                            <div _ngcontent-inl-c279="" class="tableDataList session">
+                                                                <table _ngcontent-inl-c279="" class="table table-striped table-bordered">
+                                                                    <thead _ngcontent-inl-c279="">
+                                                                        <tr _ngcontent-inl-c279="">
+                                                                            <th _ngcontent-inl-c279="">SNo.</th>
+                                                                            <th _ngcontent-inl-c279="">Start date</th>
+                                                                            <th _ngcontent-inl-c279="">Start time</th>
+                                                                            <th _ngcontent-inl-c279="">End time</th>
+                                                                            <th _ngcontent-inl-c279=""></th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody _ngcontent-inl-c279="">
+                                                                        <tr _ngcontent-inl-c279="" style="background-color: white;" class="ng-untouched ng-pristine ng-valid ng-star-inserted">
+                                                                            <td _ngcontent-inl-c279="" class="text-center">1</td>
+                                                                            <td _ngcontent-inl-c279="">
+                                                                                <div _ngcontent-inl-c279="" class="form-input date-field">
+                                                                                    <input
+                                                                                        _ngcontent-inl-c279=""
+                                                                                        formcontrolname="startDate"
+                                                                                        class="form-control click-off ng-untouched ng-pristine ng-valid ng-star-inserted"
+                                                                                        aria-haspopup="dialog"
+                                                                                        min="2024-04-11"
+																						value="10/05/2024"
+                                                                                    />
+                                                                                  
+                                                                                </div>
+                                                                            </td>
+                                                                            <td _ngcontent-inl-c279="">
+                                                                                <div _ngcontent-inl-c279="" class="form-input date-field">
+                                                                                    <input
+                                                                                        _ngcontent-inl-c279=""
+                                                                                        formcontrolname="startDate"
+                                                                                        class="form-control click-off ng-untouched ng-pristine ng-valid ng-star-inserted"
+                                                                                        aria-haspopup="dialog"
+                                                                                        min="2024-04-11"
+																						value="11.00 AM"
+                                                                                    />
+                                                                               
+                                                                                </div>
+                                                                            </td>
+                                                                            <td _ngcontent-inl-c279="">
+                                                                                <div _ngcontent-inl-c279="" class="form-input date-field">
+                                                                                    <input
+                                                                                        _ngcontent-inl-c279=""
+                                                                                        formcontrolname="startDate"
+                                                                                        class="mat-datepicker-input form-control click-off ng-untouched ng-pristine ng-valid ng-star-inserted"
+                                                                                        aria-haspopup="dialog"
+                                                                                        min="2024-04-11"
+                                                                                        data-mat-calendar="mat-datepicker-5"
+																						value="01:00 PM"
+                                                                                    />
+                                                                                   
+                                                                                </div>
+                                                                            </td> <td _ngcontent-inl-c279=""><!----></td>
+                                                                        </tr>
+                                                                        <!---->
+                                                                    </tbody>
+                                                                </table>
+                                                              
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-6 mt-2 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-error"><!----></div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-12 mt-4 ng-star-inserted">
+                                                    <div _ngcontent-inl-c279="" class="form-line ng-star-inserted">
+                                                        <div _ngcontent-inl-c279="" class="form-label"><label _ngcontent-inl-c279="">Created Agenda Items</label></div>
+                                                    </div>
+                                                    <!----><!---->
+                                                    <div _ngcontent-inl-c279="" class="tableDataList">
+                                                        <table _ngcontent-inl-c279="" class="table table-hover table-bordered">
+                                                            <thead _ngcontent-inl-c279="">
+                                                                <tr _ngcontent-inl-c279="">
+                                                                    <th _ngcontent-inl-c279="">Agenda Item Number</th>
+                                                                    <th _ngcontent-inl-c279="">Cabinet Paper Number</th>
+                                                                    <th _ngcontent-inl-c279="">Agenda Item Subject</th>
+                                                                    <th _ngcontent-inl-c279="">Presented By</th>
+                                                                    <th _ngcontent-inl-c279="">Ministry Name</th>
+                                                                    <th _ngcontent-inl-c279="">Creation Date</th>
+                                                                    <th _ngcontent-inl-c279="">Comments</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody _ngcontent-inl-c279="">
+                                                                <tr _ngcontent-inl-c279="" class="ng-star-inserted">
+                                                                    <td _ngcontent-inl-c279="">1</td>
+                                                                    <td _ngcontent-inl-c279=""> <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">D32/2024/CP/05/9</a>
+																	<div class="modal fade bd-example-modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                            <div class="modal-dialog modal-xl">
+                                                                                <div class="modal-content">
+                                                                                    <div class="modal-header">
+                                                                                        <h3 class="modal-title fs-5" id="exampleModalLabel">Task Details</h3>
+                                                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                                                                    </div>
+                                                                                    <div class="modal-body">
+                                                                                        <div _ngcontent-veu-c228="" class="details-area panel-content-area">
+                                                                                            <div _ngcontent-txc-c122="" class="row form-field mb-4">
+                                                                                                <div _ngcontent-txc-c122="" class="form-line col-md-3">
+                                                                                                    <div _ngcontent-txc-c122="" class="input-group">
+                                                                                                        <div _ngcontent-txc-c122="" class="form-line">
+                                                                                                            <label _ngcontent-txc-c122="">Cabinet Paper Number:</label>
+                                                                                                            <input value="D32/2024/CP/05/9" readonly="" class="form-control ng-pristine ng-valid ng-touched" />
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div _ngcontent-txc-c122="" class="form-line col-md-5">
+                                                                                                    <div _ngcontent-txc-c122="" class="input-group">
+                                                                                                        <div _ngcontent-txc-c122="" class="form-line">
+                                                                                                            <label _ngcontent-txc-c122="">Status:</label>
+                                                                                                            <input _ngcontent-txc-c122="" value="Cabinet Paper Approved and Move to Agenda" readonly="" class="form-control ng-untouched ng-pristine ng-valid" />
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div _ngcontent-txc-c122="" class="form-line col-md-2">
+                                                                                                    <div _ngcontent-txc-c122="" class="input-group">
+                                                                                                        <div _ngcontent-txc-c122="" class="form-line">
+                                                                                                            <label _ngcontent-txc-c122="">Date of Assignment:</label><input value="9/05/2024" readonly="" class="form-control" />
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div _ngcontent-txc-c122="" class="form-line col-md-2">
+                                                                                                    <div _ngcontent-txc-c122="" class="input-group">
+                                                                                                        <div _ngcontent-txc-c122="" class="form-line">
+                                                                                                            <label _ngcontent-txc-c122="">Date of Creation:</label><input _ngcontent-txc-c122="" value="02/05/2024" readonly="" class="form-control" />
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <!---->
+                                                                                                <div _ngcontent-txc-c122="" class="col-md-3 ng-star-inserted" style="">
+                                                                                                    <div _ngcontent-txc-c122="" class="form-line">
+                                                                                                        <label _ngcontent-txc-c122="">Ministry File Reference No <span _ngcontent-txc-c122="" class="form-error">*</span></label>
+                                                                                                        <input value="F-AGRI-2024-202" class="form-control" />
+                                                                                                    </div>
+                                                                                                    <!---->
+                                                                                                </div>
+                                                                                                <!---->
+                                                                                                <div _ngcontent-txc-c122="" class="col-md-3">
+                                                                                                    <div _ngcontent-txc-c122="" class="form-line">
+                                                                                                        <label _ngcontent-txc-c122="">Minister</label><input value="Ricardo Benjamin" readonly="" class="form-control" />
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div _ngcontent-txc-c122="" class="col-md-3">
+                                                                                                    <div _ngcontent-txc-c122="" class="form-line">
+                                                                                                        <label _ngcontent-txc-c122="">Ministry</label><input value="Agriculture, Fisheries, Blue and Green Economy" readonly="" class="form-control" />
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                              
+                                                                                                <div _ngcontent-txc-c122="" class="col-md-12 ng-star-inserted" style="">
+                                                                                                    <div _ngcontent-txc-c122="" class="form-line">
+                                                                                                        <label _ngcontent-txc-c122="">Subject <span _ngcontent-txc-c122="" class="form-error">*</span></label>
+                                                                                                        <input value="Request For Approval of Contractual Employment for Thomas Gilbert As Permanent Secretary" class="form-control" />
+                                                                                                        <!---->
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <!----><!---->
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div id="accordion">
+                                                                                       
+
+                                                                                            <button class="accordion active">Cabinet Paper Details</button>
+                                                                                            <div _ngcontent-xdr-c122="" class="panel-content-area form-horizontal ng-tns-c112-61">
+																							
+																							<div _ngcontent-vgw-c101="" class="file_content" style="height: 100%"> 
+					
+						<div _ngcontent-lsm-c122="" class=" ng-star-inserted" style="margin: 20px">
+																		<div _ngcontent-lsm-c122="" id="divId" class="editor-content-section">
+
+<p style="margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 12pt;">THIS IS THE PROPERTY OF CABINET</span></span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                    </span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 12pt;">COPY NO. 101</span></span></b></p><p style="margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 12pt;">SECRET</span></span></b></p><p style="margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 12pt;">DOMINICA</span></span></b></p><p align="center" style="text-align:center;margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 12pt;">CABINET PAPER NO 030/2024/CP/0014</span></span></b></p><p align="center" style="text-align:center;margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><b><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 12pt;">REQUEST FOR APPROVAL OF CONTRACTUAL EMPLOYMENT FOR THOMAS GILBERT AS PERMANENT SECRETARY – AGRICULTURE, FISHERIES, BLUE AND GREEN ECONOMY</span></span></span></b></p><p style="margin-left: 80px;"><b><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">﻿﻿I.&nbsp;</span></span></span></b><b style="font-size: 10pt; background-color: unset; text-align: inherit;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">PURPOSE / OBJECTIVE</span></span></b></p><p style="margin: 0in 0in 8pt 100px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">The primary objective of this Cabinet Paper is to propose a comprehensive strategy for addressing the growing issue of urban congestion in major metropolitan areas. The memorandum aims to:</span></span></p><ol style="list-style-image: none; list-style-type: decimal;"><li class="pastecontent_rte" style="margin: 0in 0in 8pt 100px; line-height: 107%; font-size: 10pt; font-family: calibri, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Provide Cabinet members with a clear understanding of the current state of urban congestion and its detrimental impacts on economic productivity, environmental sustainability, and quality of life.</span></span></li><li class="pastecontent_rte" style="margin: 0in 0in 8pt 100px; line-height: 107%; font-size: 10pt; font-family: calibri, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Present a detailed analysis of the underlying causes contributing to urban congestion, including population growth, inadequate transportation infrastructure, inefficient land use patterns, and reliance on single-occupancy vehicles.</span></span></li><li class="pastecontent_rte" style="margin: 0in 0in 8pt 100px; line-height: 107%; font-size: 10pt; font-family: calibri, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Evaluate a range of potential policy interventions and transportation solutions aimed at alleviating congestion, enhancing mobility, and promoting sustainable urban development.</span></span></li></ol><p class="pastecontent_rte" style="list-style-image: none; list-style-type: none; margin-left: 80px;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong><span style="font-size: 10pt;">﻿II.&nbsp;</span></strong></span><span style="font-family: Arial, Helvetica, sans-serif;"><strong><span style="font-size: 10pt;">BACKGROUND</span></strong></span></span></p><p style="margin: 0in 0in 8pt 100px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">The efficient functioning of government ministries and departments relies heavily on the expertise, professionalism, and dedication of their secretariat staff. As the backbone of administrative operations, secretariat personnel play a crucial role in facilitating decision-making processes, managing workflows, and providing essential support to senior officials and policymakers.</span></span></p><p style="margin: 0in 0in 8pt 100px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">In recent years, the demand for skilled secretariat staff has grown significantly, driven by expanding government mandates, evolving policy priorities, and advancements in technology. However, recruiting and retaining qualified secretariat professionals has become increasingly challenging, as the public sector competes with the private sector and other organizations for top talent.</span></span></p><p style="margin-left: 80px;"><span style="font-size: 10pt;"><span style="font-family: Arial, Helvetica, sans-serif;"><strong>III. ISSUE</strong></span></span></p><p style="margin: 0in 0in 8pt 100px; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">An analysis conducted by the AGRICULTURE, FISHERIES, BLUE AND GREEN ECONOMY has identified several key challenges facing secretariat hiring practices, including:</span></span></span></p><ol start="1" type="1" style="margin-top:0in;margin-bottom:0in;">
+ <li style="list-style-type: none;"><ol><li style="list-style-type: none;"><ol><li style="margin-top:6.0pt;margin-bottom:6.0pt;line-height:
+     normal;margin-right:0in;margin-left:0in;font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><span><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Skill Shortages:</span></span></b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;"> There is a shortage of      individuals with the specialized skills and competencies required to      effectively perform secretariat duties, such as administrative      proficiency, communication skills, analytical abilities, and familiarity      with relevant software tools and systems.</span></span></span></li><li style="margin-top:6.0pt;margin-bottom:6.0pt;line-height:
+     normal;margin-right:0in;margin-left:0in;font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><span><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Attrition Rates:</span></span></b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;"> High turnover rates among      secretariat staff pose a significant challenge to continuity and institutional      memory within government departments. The loss of experienced personnel      can disrupt operations, delay projects, and impede the achievement of      organizational objectives.</span></span></span></li><li style="margin-top:6.0pt;margin-bottom:6.0pt;line-height:
+     normal;margin-right:0in;margin-left:0in;font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><span><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Diversity and Inclusion:</span></span></b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;"> Ensuring diversity and      inclusion within the secretariat workforce remains a priority for the      government. However, efforts to attract and retain a diverse talent pool      have been hampered by systemic barriers, unconscious biases, and limited      outreach and recruitment initiatives targeting underrepresented groups</span></span></span></li></ol></li></ol></li>
+ 
+ 
+</ol><p><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;"><br></span></span></p><p style="margin: 0in 0in 8pt 120px; text-indent: -0.5in; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">IV. RECOMMENDATION AND ANALYSIS</span></span></b></p><p style="margin: 0in 0in 0in 100px; line-height: normal; vertical-align: baseline; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">The Ministry seeks and recommends approval for contractual employment of </span></span></span><span><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Thomas Gilbert as Permanent Secretary</span></span></span></span><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">, Agriculture, Fisheries, Blue and Green Economy, for a period of two years under the following terms and conditions:&nbsp;</span></span></span></p><p style="margin: 0in 0in 0in 100px; line-height: normal; vertical-align: baseline; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Salary:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XCD 000.00 per month&nbsp;</span></span></span></p><p style="margin: 0in 0in 0in 100px; line-height: normal; vertical-align: baseline; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Vacation Leave:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Twenty – one (21) working days per annum&nbsp;</span></span></span></p><p style="margin: 0in 0in 0in 100px; line-height: normal; vertical-align: baseline; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Gratuity:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Twenty percent (20%) of basic salary</span></span></span></p><p><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;"><br></span></span></p><p style="margin-left: 100px; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">In light of the evolving nature of government operations and the need for flexibility in staffing arrangements, the following recommendations are proposed to address the challenges</span></span></span></p><p style="margin: 0in 0in 8pt 120px; text-indent: -0.5in; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">V. CONCLUSION</span></span></b></p><p style="margin: 12pt 0in 12pt 100px; text-align: justify;"><span><span style="font-size: 10pt; font-family: Arial, Helvetica, sans-serif;">In
+conclusion, the recommendations outlined in this cabinet paper present a
+strategic framework for optimizing secretariat contractual hiring practices
+within government ministries and departments. By embracing flexibility,
+innovation, and Upload scanned signatureability in the procurement and management of external
+service providers, the government can enhance its capacity to deliver
+high-quality secretariat support services, respond effectively to changing
+organizational needs, and achieve value for money.</span></span></p><p style="margin: 12pt 0in 12pt 100px; text-align: justify;"><span><span style="font-size: 10pt; font-family: Arial, Helvetica, sans-serif;">The
+proposed recommendations emphasize the importance of strategic outsourcing,
+contractual agility, competitive procurement practices, performance monitoring,
+risk management, and capacity building in maximizing the benefits of
+secretariat contractual arrangements while mitigating associated risks and
+challenges. By adopting a proactive and systematic approach to contractual
+hiring, the government can leverage external expertise, foster innovation, and
+enhance the efficiency and effectiveness of service delivery across the public
+sector.</span></span></p><p style="margin: 0in 0in 8pt 120px; text-indent: -0.5in; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><b><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">VI. INVITATION TO CABINET</span></span></b></p><p style="margin-left: 100px; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">The Cabinet is therefore invited to consider and advise approval for the following:</span></span></p><p style="margin-left: 100px; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Approval for contractual employment of </span></span></span><span><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Thomas Gilbert as Permanent Secretary</span></span></span></span><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">, Agriculture, Fisheries, Blue and Green Economy, for a period of two years under the following terms and conditions:&nbsp;</span></span></span></p><p style="margin: 0in 0in 0in 100px; line-height: normal; vertical-align: baseline; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Salary:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; XCD 000.00 per month&nbsp;</span></span></span></p><p style="margin: 0in 0in 0in 100px; line-height: normal; vertical-align: baseline; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Vacation Leave:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Twenty – one (21) working days per annum&nbsp;</span></span></span></p><p style="margin: 0in 0in 0in 100px; line-height: normal; vertical-align: baseline; font-size: 11pt; font-family: Calibri, sans-serif;"><span><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Gratuity:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Twenty percent (20%) of basic salary</span></span></span></p><p><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;"><br></span></span></p><p><span style="font-size: 10pt;"><br></span></p><p><span style="font-size: 10pt;"><br></span></p><p style="font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"> <img src="images/sig.png" alt="User" width="20%"><br>
+
+<span style="font-family: Arial, Helvetica, sans-serif; width=" 100%"=""><span style="font-size: 10pt;">………………………………………………………</span></span></p><p>
+<span style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal; font-weight: 400; text-align: left; text-indent: 0px; white-space: normal; background-color: rgb(255, 255, 255); float: none; display: inline !important;">Ricardo Benjamin</span>
+
+<span style="font-size: 10pt;"><br></span></p><p style="font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><span style="
+color:black;">﻿﻿<span style="
+color:black;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">Agriculture, Fisheries, Blue and Green Economy</span></span></span></span></p><p style="font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;"><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">3</span></span><sup><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;">rd</span></span></sup><span style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 10pt;"> May,2024</span></span></p>
+<p><a href="#" style="font-size: 14px;">Page 1.pdf</a> </p>
+</div>
+</div>
+						
+					</div>
+										
+													
+																			
+																							</div>
+                                                                                            <button class="accordion">Referred Documents Details</button>
+                                                                                            <div class="panel">
+                                                                                                <p></p>
+                                                                                                <div _ngcontent-veu-c228="" class="panel-content-area ng-tns-c112-42">
+                                                                                                    <div _ngcontent-veu-c228="" class="tableFixHead1">
+                                                                                                        <div _ngcontent-veu-c228="" class="tableDataList">
+                                                                                                            <table _ngcontent-veu-c228="" class="table table-striped table-bordered">
+                                                                                                                <thead _ngcontent-veu-c228="">
+                                                                                                                    <tr _ngcontent-veu-c228="">
+                                                                                                                        <th _ngcontent-veu-c228="">Document Name</th>
+                                                                                                                        <th _ngcontent-veu-c228="">Subject</th>
+                                                                                                                        <th _ngcontent-veu-c228="" class="text-center">Action</th>
+                                                                                                                    </tr>
+                                                                                                                </thead>
+                                                                                                                <tbody _ngcontent-veu-c228="">
+                                                                                                                    <tr _ngcontent-veu-c228="" class="ng-star-inserted" style="">
+                                                                                                                        <td _ngcontent-veu-c228="" colspan="4">No record found!</td>
+                                                                                                                    </tr>
+                                                                                                                    <!----><!---->
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                                <p></p>
+                                                                                            </div>
+
+                                                                                            <button class="accordion">Complete Supporting Documents Details</button>
+                                                                                            <div class="panel">
+                                                                                                <p></p>
+                                                                                                <div _ngcontent-veu-c228="" class="panel-content-area ng-tns-c112-44">
+                                                                                                    <div _ngcontent-veu-c228="" class="tableFixHead1">
+                                                                                                        <div _ngcontent-veu-c228="" class="tableDataList">
+                                                                                                            <table _ngcontent-veu-c228="" class="table table-striped table-bordered">
+                                                                                                                <thead _ngcontent-veu-c228="">
+                                                                                                                    <tr _ngcontent-veu-c228="">
+                                                                                                                        <th _ngcontent-veu-c228="">Document Name</th>
+                                                                                                                        <th _ngcontent-veu-c228="">Subject</th>
+                                                                                                                        <th _ngcontent-veu-c228="">Action</th>
+                                                                                                                    </tr>
+                                                                                                                </thead>
+                                                                                                                <tbody _ngcontent-veu-c228="">
+                                                                                                                    <tr _ngcontent-veu-c228="" class="ng-star-inserted" style="">
+                                                                                                                        <td _ngcontent-veu-c228="" colspan="4">No record found!</td>
+                                                                                                                    </tr>
+                                                                                                                    <!----><!---->
+                                                                                                                </tbody>
+                                                                                                            </table>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                                <p></p>
+                                                                                            </div>
+
+                                                                                            <script>
+                                                                                                var acc = document.getElementsByClassName("accordion");
+                                                                                                var i;
+
+                                                                                                for (i = 0; i < acc.length; i++) {
+                                                                                                    acc[i].addEventListener("click", function () {
+                                                                                                        this.classList.toggle("active");
+                                                                                                        var panel = this.nextElementSibling;
+                                                                                                        if (panel.style.display === "block") {
+                                                                                                            panel.style.display = "none";
+                                                                                                        } else {
+                                                                                                            panel.style.display = "block";
+                                                                                                        }
+                                                                                                    });
+                                                                                                }
+                                                                                            </script>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+																	</td>
+                                                                    <td _ngcontent-inl-c279="">
+                                                                        <div _ngcontent-inl-c279="" mattooltipclass="tooltip-action" class="mat-tooltip-trigger" aria-describedby="cdk-describedby-message-3" cdk-describedby-host="">
+                                                                            <div _ngcontent-inl-c279="" class="ellipsisclass">Cabinet Paper for Fisheries Management and Conservation Plan</div>
+                                                                        </div>
+                                                                        <!---->
+                                                                    </td>
+                                                                    <td _ngcontent-inl-c279="">Ricardo Benjamin</td>
+                                                                    <td _ngcontent-inl-c279="">Ministry of Agriculture, Fisheries, Blue and Green Economy</td>
+                                                                    <td _ngcontent-inl-c279="">02/05/2024</td>
+                                                                    <td _ngcontent-inl-c279="" class="text-center">
+                                                                       <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"/></svg>
+                                                                    </td>
+                                                                </tr>
+                                                                <!----><!----><!----><!----><!----><!---->
+																     <tr _ngcontent-inl-c279="" class="ng-star-inserted">
+                                                                    <td _ngcontent-inl-c279="">2</td>
+                                                                    <td _ngcontent-inl-c279=""><a _ngcontent-inl-c279="" href="javascript:void(0);">D32/2024/CP/02/23</a></td>
+                                                                    <td _ngcontent-inl-c279="">
+                                                                        <div _ngcontent-inl-c279="" mattooltipclass="tooltip-action" class="mat-tooltip-trigger" aria-describedby="cdk-describedby-message-3" cdk-describedby-host="">
+                                                                            <div _ngcontent-inl-c279="" class="ellipsisclass">Cabinet Paper for Education Subcidy to the Lower-Middle Class Students</div>
+                                                                        </div>
+                                                                        <!---->
+                                                                    </td>
+                                                                    <td _ngcontent-inl-c279="">Antonio Garcia</td>
+                                                                    <td _ngcontent-inl-c279="">Ministry of Education, Human Resource Planning, Vocational Training and National Excellence</td>
+                                                                    <td _ngcontent-inl-c279="">10/02/2024</td>
+                                                                    <td _ngcontent-inl-c279="" class="text-center">
+                                                                       <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"/></svg>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                               				<div _ngcontent-yly-c237="" class="md-col-12 mt-2 mb-2"><button _ngcontent-yly-c237="" type="button" mat-button="" class="mat-focus-indicator actionButton borderR mat-button mat-button-base" data-bs-toggle="modal" data-bs-target="#exampleModal1"><span class="mat-button-wrapper">Preview Agenda Template</span><span matripple="" class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span></button>
+																<div class="modal fade bd-example-modal-xl"  id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                                    <div class="modal-dialog modal-xl" style="min-width:97vw; margin:10px">
+                                                                                        <div class="modal-content">
+                                                                                            <div class="modal-header">
+                                                                                                <h3 class="modal-title fs-5" id="exampleModalLabel"></h3>
+                                                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                                                                            </div>
+																						   <div class="modal-body" style="height: 85vh">
+																						<div _ngcontent-vgw-c101="" class="file_content" style="height: 100%">
+																						<iframe src="Agenda_1.pdf" style="width: 100%;height: 100%;border: none;"></iframe>
+</div>
+</div>
+																						   
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+															</div>
+                                                </div>
+                                                <!----><!----><!----><!---->
+                                                <div _ngcontent-inl-c279="" class="col-md-12 mt-4 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-label">
+                                                            <label _ngcontent-inl-c279="">Meeting Participants <span _ngcontent-inl-c279="" class="form-error">*</span></label>
+                                                        </div>
+                                                        <div _ngcontent-inl-c279="" class="form-input">
+                                                            <mat-checkbox _ngcontent-inl-c279="" class="mat-checkbox chkbtn mat-accent mat-checkbox-checked mat-checkbox-disabled ng-star-inserted" id="78">
+                                                                <label class="mat-checkbox-layout" for="78-input">
+                                                                    <span class="mat-checkbox-inner-container">
+                                                                        <input type="checkbox" class="mat-checkbox-input cdk-visually-hidden" id="78-input" disabled="" tabindex="-1" value="78" aria-checked="true" />
+                                                                        <span matripple="" class="mat-ripple mat-checkbox-ripple mat-focus-indicator"><span class="mat-ripple-element mat-checkbox-persistent-ripple"></span></span>
+                                                                        <span class="mat-checkbox-frame"></span>
+                                                                        <span class="mat-checkbox-background">
+                                                                            <svg version="1.1" focusable="false" viewBox="0 0 24 24" xml:space="preserve" class="mat-checkbox-checkmark">
+                                                                                <path fill="none" stroke="white" d="M4.1,12.7 9,17.6 20.3,6.3" class="mat-checkbox-checkmark-path"></path>
+                                                                            </svg>
+                                                                            <span class="mat-checkbox-mixedmark"></span>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="mat-checkbox-label"><span style="display: none;">&nbsp;</span>STC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                                                                </label>
+                                                            </mat-checkbox>
+                                                            
+                                                            
+                                                            <mat-checkbox _ngcontent-inl-c279="" class="mat-checkbox chkbtn mat-accent mat-checkbox-checked ng-star-inserted" id="79">
+                                                                <label class="mat-checkbox-layout" for="79-input">
+                                                                    <span class="mat-checkbox-inner-container">
+                                                                        <input type="checkbox" class="mat-checkbox-input cdk-visually-hidden" id="79-input" tabindex="0" value="79" aria-checked="true" />
+                                                                        <span matripple="" class="mat-ripple mat-checkbox-ripple mat-focus-indicator"><span class="mat-ripple-element mat-checkbox-persistent-ripple"></span></span>
+                                                                        <span class="mat-checkbox-frame"></span>
+                                                                        <span class="mat-checkbox-background">
+                                                                            <svg version="1.1" focusable="false" viewBox="0 0 24 24" xml:space="preserve" class="mat-checkbox-checkmark">
+                                                                                <path fill="none" stroke="white" d="M4.1,12.7 9,17.6 20.3,6.3" class="mat-checkbox-checkmark-path"></path>
+                                                                            </svg>
+                                                                            <span class="mat-checkbox-mixedmark"></span>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="mat-checkbox-label"><span style="display: none;">&nbsp;</span>Prime Minister &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                                                                </label>
+                                                            </mat-checkbox>
+                                                            <mat-checkbox _ngcontent-inl-c279="" class="mat-checkbox chkbtn mat-accent mat-checkbox-checked ng-star-inserted" id="77">
+                                                                <label class="mat-checkbox-layout" for="77-input">
+                                                                    <span class="mat-checkbox-inner-container">
+                                                                        <input type="checkbox" class="mat-checkbox-input cdk-visually-hidden" id="77-input" tabindex="0" value="77" aria-checked="true" />
+                                                                        <span matripple="" class="mat-ripple mat-checkbox-ripple mat-focus-indicator"><span class="mat-ripple-element mat-checkbox-persistent-ripple"></span></span>
+                                                                        <span class="mat-checkbox-frame"></span>
+                                                                        <span class="mat-checkbox-background">
+                                                                            <svg version="1.1" focusable="false" viewBox="0 0 24 24" xml:space="preserve" class="mat-checkbox-checkmark">
+                                                                                <path fill="none" stroke="white" d="M4.1,12.7 9,17.6 20.3,6.3" class="mat-checkbox-checkmark-path"></path>
+                                                                            </svg>
+                                                                            <span class="mat-checkbox-mixedmark"></span>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="mat-checkbox-label"><span style="display: none;">&nbsp;</span>Cabinet Minister &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                                                                </label>
+                                                            </mat-checkbox>
+                                                            <!---->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!----><!---->
+                                                <div _ngcontent-inl-c279="" class="col-md-12 input-group">
+                                                    <div _ngcontent-inl-c279="" class="form-line">
+                                                        <div _ngcontent-inl-c279="" class="form-error"><!----></div>
+                                                    </div>
+                                                </div>
+                                                <div _ngcontent-inl-c279="" class="col-md-12 mt-2 mb-4 text-right">
+                                                    <a href="permanent-secretary-dashbaord.html" _ngcontent-inl-c279="" mat-button="" class="mat-focus-indicator actionButton ml-2 borderR mat-button mat-button-base ng-star-inserted">
+                                                        <span class="mat-button-wrapper">Close</span><span matripple="" class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span>
+                                                    </a>
+                                                    <!---->
+                                                </div>
+												   <!--
+													<div class="modal fade " id="submitModal" tabindex="-1" aria-labelledby="submitModal" aria-hidden="true">
+																							  <div class="modal-dialog modal-dialog-centered">
+																								<div class="modal-content text-center">
+																								  
+																								  <div class="modal-body text-center">
+												Cabinet Meeting invitaion forwarded successfully.<br>
+An email notification has been sent from the system.
+																								  </div>
+																								  <div class="modal-footer">
+																									<button type="button" data-bs-dismiss="modal" class="btn btn-primary">Ok</button>
+																								  </div>
+																								</div>
+																							  </div>
+																							</div>
+																							-->
+                                            </div>
+                                        </div>
+                                        <!---->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer _ngcontent-gpe-c197="" class="footer mt-auto footer-light">
+                <div _ngcontent-gpe-c197="" class="container-fluid center">
+                    <div _ngcontent-gpe-c197="" class="row"><div _ngcontent-gpe-c197="" class="col-md-12 small text-center">© 2024 Government of the Commonwealth of Dominica. All rights reserved.</div></div>
+                </div>
+            </footer>
+        </div>
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+        <script src="js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>
+        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+        <script src="js/datatables/datatables-simple-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/bundle.js" crossorigin="anonymous"></script>
+        <script src="js/litepicker.js"></script>
+
+        <script src="https://assets.startbootstrap.com/js/sb-customizer.js"></script>
+    </body>
+</html>
